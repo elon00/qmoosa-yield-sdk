@@ -1,0 +1,26 @@
+{
+  "name": "@qmoosa/yield-sdk",
+  "version": "1.0.0",
+  "description": "Automated Yield Aggregation & Vaults — Type-safe client, transaction serialization & vault adapters",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/sdk.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "yield",
+    "sdk",
+    "client",
+    "vault"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
